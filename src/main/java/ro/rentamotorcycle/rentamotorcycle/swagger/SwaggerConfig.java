@@ -13,9 +13,9 @@ import springfox.documentation.swagger.web.UiConfiguration;
 import springfox.documentation.swagger.web.UiConfigurationBuilder;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-//@Configuration
-//@EnableSwagger2
-public class SwaggerConfig{}/* implements WebMvcConfigurer {
+@Configuration
+@EnableSwagger2
+public class SwaggerConfig implements WebMvcConfigurer {
 
 
     @Bean
@@ -42,4 +42,4 @@ public class SwaggerConfig{}/* implements WebMvcConfigurer {
                 .displayRequestDuration(true)
                 .build();
     }
-}*/
+}
